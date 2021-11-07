@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <title>API Fun</title>
+  </head>
+  <body>
+    <div class="about">
+      <h1>TheMealDB</h1>
+      <p>
+        TheMealDB is an open crowd-sourced database of Receipes from around the
+        world, offering a free JSON API for anyone wanting to use it.
+      </p>
+      <p>TheMealDB has options for:</p>
+      <ul>
+        Searching Meals by Name
+      </ul>
+      <ul>
+        List all meals by first letter
+      </ul>
+      <ul>
+        Lookup full meal details by id
+      </ul>
+      <ul>
+        Lookup a single random meal
+      </ul>
+
+      <ul>
+        List all meal categories
+      </ul>
+
+      <ul>
+        List all Categories, Area, Ingredients
+      </ul>
+      <ul>
+        Filter by main ingredient
+      </ul>
+      <ul>
+        Filter by Category
+      </ul>
+      <ul>
+        Filter by Area
+      </ul>
+      <ul>
+        Filter by multi-ingredient (Patreon supporters only)
+      </ul>
+      <ul>
+        Latest Meals (Patreon supporters only)
+      </ul>
+      <ul>
+        Lookup a selection of 10 random meals (Patreon supporters only)
+      </ul>
+      <h2>Try it out below!</h2>
+    </div>
+    <hr />
+    <div class="api">
+      <form id="form">
+        <input
+          id="query"
+          name="query"
+          type="text"
+          placeholder="Enter an ingredient"
+          required
+        />
+      </form>
+      <button id="button">Get your Receipe!</button>
+    </div>
+    <div id="results"></div>
+  </body>
+</html>
